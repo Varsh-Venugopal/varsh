@@ -3,75 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Website - Play Online</title>
+    <title>PDNutrition Diet</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f9;
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: black;}
+        nav { background: white; padding: 10px; text-align: center; }
+        nav a { color: black; text-decoration: none; padding: 14px 20px; display: inline-block; }
+        nav a:hover { background: #45a049; }
+        section { padding: 20px; 
+        -webkit-text-fill-color: white;
+        font-family: cursive;
+        }
+        .container { max-width: 800px; margin: auto; }
+        footer{
+            -webkit-text-fill-color: white;
             text-align: center;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 15px;
-            font-size: 24px;
-        }
-        nav {
-            margin: 20px 0;
-        }
-        nav a {
-            text-decoration: none;
-            color: white;
-            background: #007bff;
-            padding: 10px 20px;
-            margin: 0 10px;
-            border-radius: 5px;
-            display: inline-block;
-        }
-        nav a:hover {
-            background-color: #0056b3;
-        }
-        .game-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            height: 500px;
-        }
-        .game-frame {
-            width: 80%;
-            height: 400px;
-            border: none;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 15px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
+            font-family: cursive;
         }
     </style>
 </head>
 <body>
-    <header>
-        Welcome to Fun Gaming Hub!
-    </header>
-
     <nav>
-        <a href="https://poki.com/en/games/boys" target="_blank">Games for Boys</a>
-        <a href="https://poki.com/en/games/girls" target="_blank">Games for Girls</a>
-        <a href="https://poki.com/en/games/adventure" target="_blank">Adventure Games</a>
+        <a href="indes.html">Diet Plans</a>
+        <a href="indet.html">Recipes</a>
+        <a href="indec.html">#Contact</a>
+        <a href="indec.html">success stories</a>
     </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Welcome to PDNutrition</h2>
+            <p>Your go-to place for balanced and personalized diet plans. We offer customized meal plans tailored to your health needs, lifestyle, and preferences.</p>
+        </section>
 
-    <section class="game-container">
-        <p>Click on a category above to start playing!</p>
-    </section>
+        <section id="diet">
+            <h2>Diet Plans</h2>
+            <p>Explore different nutrition plans designed to help you achieve your health goals. Whether you aim to lose weight, gain muscle, or maintain a healthy lifestyle, we have the right plan for you.</p>
+            <ul>
+                <li>Weight Loss Diet</li>
+                <li>Muscle Gain Diet</li>
+                <li>Vegan & Plant-Based Diet</li>
+                <li>Diabetes-Friendly Diet</li>
+            </ul>
+        </section>
+        
+        <section id="recipes">
+            <h2>Healthy Recipes</h2>
+            <p>Discover delicious and healthy meal ideas that fit within your diet plan.</p>
+            <ul>
+                <li>Quinoa & Avocado Salad</li>
+                <li>Grilled Chicken with Steamed Vegetables</li>
+                <li>Vegan Smoothie Bowls</li>
+                <li>Healthy Overnight Oats</li>
+            </ul>
+        </section>
 
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or need a personalized consultation? Reach out to us:</p>
+            <p>Phone: 9632747137</p>
+            <p>
+        </section>
+    </div>
+    
     <footer>
-        &copy; 2025 Fun Gaming Hub. All rights reserved.
+        <p>&copy;PDNutrition. All rights reserved.</p>
     </footer>
 </body>
 </html>
